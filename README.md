@@ -1,6 +1,6 @@
 # Go REST API Template
 
-Template REST API menggunakan Golang dan Gin.
+REST API template using Golang and Gin.
 
 ## Requirements
 
@@ -25,11 +25,4 @@ go run ./cmd/server
 
 ```http
 GET http://localhost:8080/health
-```
-
-## Run Tests
-
-```bash
-go test ./...
-go vet ./...
 ```
