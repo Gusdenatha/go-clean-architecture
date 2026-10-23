@@ -15,7 +15,7 @@ REST API template using Golang and Gin.
 go mod download
 ```
 
-**3. Run application**
+**2. Run application**
 
 ```bash
 go run ./cmd/server
