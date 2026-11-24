@@ -49,15 +49,6 @@ go-clean-architecture/
 
 ---
 
-## 🔄 Alur Request (Request Lifecycle)
-
-```text
-HTTP Request ──► Router ──► Middleware ──► Handler ──► DTO Validation
-                                                          │
-                                                          ▼
-Database (GORM) ◄── Repository ◄── Service (Business Logic)
-```
-
 1. **Router & Middleware**: Menerima request HTTP dan menyaring otentikasi/CORS.
 2. **Handler**: Mengurai parameter, payload JSON, dan memvalidasinya via **DTO**.
 3. **Service**: Menjalankan aturan bisnis (*business logic*).
