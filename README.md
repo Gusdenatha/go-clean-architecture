@@ -90,8 +90,3 @@ go mod tidy
 ```bash
 go run ./cmd/server/main.go
 ```
-
-Aplikasi akan berjalan di `http://localhost:8080`.  
-Cek kesehatan server melalui endpoint: `GET http://localhost:8080/health`.
-
----
